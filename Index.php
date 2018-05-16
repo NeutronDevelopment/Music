@@ -52,13 +52,13 @@
                                <div id="musiccontainer">
 
                                		<img src="images/'.$row['Art'].' "> </img>
-                                    
+                                    <audio controls> <source src="'.$row['songfile'].'" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].'</p>
                                      <br>
                                      <br>
                                      <br>
                                      <p style="float:left; font-weight:100;">'.$row["Name"].'</p>
-
+                                     
                                </div>
                                ';
                           }
