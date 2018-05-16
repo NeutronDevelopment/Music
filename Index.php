@@ -58,14 +58,13 @@
 	</div>
 </div>
 
-
 <?php
 
                           while ($row = mysqli_fetch_assoc($result))
                           {
                                echo '
                                <div id="musiccontainer">
-                               		<p>'.$row["Art"].'</p>
+                               		<img>'.$row["Art"].'</img>
                                     <p>'.$row["Name"].'</p>
                                </div>
                                ';
