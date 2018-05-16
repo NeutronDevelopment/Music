@@ -87,7 +87,7 @@ body {
 }
 
 #line2 {
-    width: 8%;
+    width: 10%;
     height: 1px;
     background-color: #6b6b6b;
     margin-left: 5%;
@@ -96,6 +96,7 @@ body {
 h2 {
     font-family: arial;
     color: #333333;
+    font-weight: 200;
 }
 
 h3 {
