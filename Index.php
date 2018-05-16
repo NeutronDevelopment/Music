@@ -65,6 +65,7 @@
                           {
                                echo '
                                <div id="musiccontainer">
+                               		<p>'.$row["Art"].'</p>
                                     <p>'.$row["Name"].'</p>
                                </div>
                                ';
