@@ -1,3 +1,10 @@
+<?php include('connect.php'); ?>
+
+
+        <?php $query = ("SELECT * FROM albums");
+        $result = mysqli_query($db, $query);
+        ?> 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,24 +61,13 @@
 
 <?php
 
-                          while ($row = mysqli_fetch_assoc($result1))
+                          while ($row = mysqli_fetch_assoc($result))
                           {
                                echo '
-                               <tr>
-                                    <td>'.$row["staffID"].'</td>
-                                    <td>'.$row["hotellocation"].'</td>
-                                    <td>'.$row["jobname"].'</td>
-                                    <td>'.$row["stafffirstname"].'</td>
-                                    <td>'.$row["stafflastname"].'</td>
-                                    <td>'.$row["staffemail"].'</td>
-                                    <td>'.$row["staffphone"].'</td>
-                                    <td>'.$row["datehired"].'</td>
-                                    <td>
-                                    <a href="manipulate.php?staff='.$row["staffID"].'"> Edit </a>
-                                    &nbsp;
-                                    <a href="?remove_staff='.$row["staffID"].'" onclick="return confirm(\'Are you sure you wish to proceed?\')"> Delete </a>
-                                    </td>
-                               </tr>
+                               <div id="musiccontainer">
+                               		<img>'.$row["albumimage"].'</img>
+                                    <p>'.$row["albumname"].'</p>
+                               </div>
                                ';
                           }
                           ?>
