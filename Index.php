@@ -27,36 +27,6 @@
 	<h2 style="margin-left: 5%"> New Albums </h2>
 
 	<div id="line"> </div>
-<div id="rowcontainer">
-	<div id="musiccontainer">
-		<img src="albumcover.jpg">
-		<p> Album Name </p>
-	</div>
-	<div id="musiccontainer">
-		<img src="albumcover.jpg">
-		<p> Album Name </p>
-	</div>
-	<div id="musiccontainer">
-		<img src="albumcover.jpg">
-		<p> Album Name </p>
-	</div>
-	<div id="musiccontainer">
-		<img src="albumcover.jpg">
-		<p> Album Name </p>
-	</div>
-	<div id="musiccontainer">
-		<img src="albumcover.jpg">
-		<p> Album Name </p>
-	</div>
-	<div id="musiccontainer">
-		<img src="albumcover.jpg">
-		<p> Album Name </p>
-	</div>
-	<div id="musiccontainer">
-		<img src="albumcover.jpg">
-		<p> Album Name </p>
-	</div>
-</div>
 
 <?php
 
