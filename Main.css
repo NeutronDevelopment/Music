@@ -49,14 +49,19 @@ body {
 	transition-duration: 0.5s;
 }
 
+#container {
+    width: 90%;
+    margin: auto;
+}
+
 #musiccontainer {
     float: left;
-    display: inline;
-    width: 10%;
-    background: #2e6dd3;
-    height: 250px;
+    width: 250px;
+    background: #cccccc;
+    height: 300px;
     margin: 20px;
-    box-shadow: 20px;
+    border: 2px;
+    border-color: #919191;
 }
 
 #musiccontainer img{
@@ -68,13 +73,7 @@ body {
     margin-left: 10%;
     font-family: arial;
     margin: auto 0;
-}
-
-#rowcontainer {
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    margin-left: 7%;
+    text-align: center;
 }
 
 #line {

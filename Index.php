@@ -28,6 +28,8 @@
 
 	<div id="line"> </div>
 
+	<div id="container"> 
+
 <?php
 
                           while ($row = mysqli_fetch_assoc($result))
@@ -40,6 +42,8 @@
                                ';
                           }
                           ?>
+
+    </div>
 
 </body>
 </html>
