@@ -64,7 +64,7 @@
                           {
                                echo '
                                <div id="musiccontainer">
-                               		<img>'.$row["Art"].'</img>
+                               		<img src="images/'.$row['Art'].' "> </img>
                                     <p>'.$row["Name"].'</p>
                                </div>
                                ';
