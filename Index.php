@@ -53,8 +53,8 @@
 
                                		<img src="images/'.$row['Art'].' "> </img>
                                     
-                                    <p> Artist Name: </p> <p>'.$row["ArtistName"].'</p>
-                                    <p> Album Name: </p> <p>'.$row["Name"].'</p>
+                                     <p>'.$row["ArtistName"].'</p>
+                                     <p>'.$row["Name"].'</p>
 
                                </div>
                                ';
