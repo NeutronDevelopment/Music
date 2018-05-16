@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.7.9
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 17, 2018 at 12:03 AM
--- Server version: 10.1.26-MariaDB
--- PHP Version: 7.1.9
+-- Generation Time: May 17, 2018 at 12:54 AM
+-- Server version: 10.1.31-MariaDB
+-- PHP Version: 7.2.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -33,22 +33,23 @@ CREATE TABLE `album` (
   `AlbumID` int(11) NOT NULL,
   `ArtistID` int(11) NOT NULL,
   `Art` text NOT NULL,
-  `Rating` int(11) NOT NULL
+  `Rating` int(11) NOT NULL,
+  `songfile` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `album`
 --
 
-INSERT INTO `album` (`Name`, `AlbumID`, `ArtistID`, `Art`, `Rating`) VALUES
-('Aladdin Sane', 1, 1, 'aladdinsane.jpg', 10),
-('Appetite For Destruction', 2, 2, 'appetitefordesturction.jpg\r\n', 10),
-('Mothership', 3, 7, 'mothership.jpg', 10),
-('Powerage', 4, 3, 'powerage.jpg', 10),
-('Trash', 5, 4, 'trash.jpg', 10),
-('Love Gun', 6, 5, 'lovegun.jpg', 10),
-('Iron Maiden', 7, 6, 'ironmaiden.jpg', 10),
-('Remember My Name', 8, 8, 'remembermyname.jpg', 10);
+INSERT INTO `album` (`Name`, `AlbumID`, `ArtistID`, `Art`, `Rating`, `songfile`) VALUES
+('Aladdin Sane', 1, 1, 'aladdinsane.jpg', 10, 'lifeonmars.mp3'),
+('Appetite For Destruction', 2, 2, 'appetitefordesturction.jpg\r\n', 10, ''),
+('Mothership', 3, 7, 'mothership.jpg', 10, ''),
+('Powerage', 4, 3, 'powerage.jpg', 10, ''),
+('Trash', 5, 4, 'trash.jpg', 10, ''),
+('Love Gun', 6, 5, 'lovegun.jpg', 10, ''),
+('Iron Maiden', 7, 6, 'ironmaiden.jpg', 10, ''),
+('Remember My Name', 8, 8, 'remembermyname.jpg', 10, '');
 
 -- --------------------------------------------------------
 
