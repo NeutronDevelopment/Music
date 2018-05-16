@@ -53,7 +53,10 @@
 
                                		<img src="images/'.$row['Art'].' "> </img>
                                     
-                                     <p style="float:left; margin-right: 100px;">'.$row["ArtistName"].'</p>
+                                     <p style="float:left;">'.$row["ArtistName"].'</p>
+                                     <br>
+                                     <br>
+                                     <br>
                                      <p style="float:left; font-weight:100;">'.$row["Name"].'</p>
 
                                </div>
