@@ -15,10 +15,13 @@
 
 	<div id="nav-bar-centre">
 		<ul>
+			<h3> Nat and Dans Music </h3>
+			<div id="line"> </div>
 			<li> <a href="#">Music</a> </li>
 			<li> <a href="#">Artists</a> </li>
 			<li> <a href="#">Albums</a> </li>
 			<li> <a href="#">About</a> </li>
+			<div id="line"> </div>
 		</ul>
 	</div>
 
@@ -26,7 +29,7 @@
 
 	<h2 style="margin-left: 5%"> New Albums </h2>
 
-	<div id="line"> </div>
+	<div id="line2"> </div>
 
 	<div id="container"> 
 
@@ -38,12 +41,17 @@
                                <div id="musiccontainer">
                                		<img src="images/'.$row['Art'].' "> </img>
                                     <p>'.$row["Name"].'</p>
+
                                </div>
                                ';
                           }
                           ?>
 
     </div>
+
+    <h2 style="margin-left: 5%"> New Artists </h2>
+
+	<div id="line2"> </div>
 
 </body>
 </html>
