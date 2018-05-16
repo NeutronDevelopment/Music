@@ -7,7 +7,7 @@
 
 
 
-            <?php $query = ("SELECT album.AlbumID, album.Name, album.Art, artist.ArtistName, artist.ArtistID
+            <?php $query = ("SELECT album.AlbumID, album.songfile, album.Name, album.Art, artist.ArtistName, artist.ArtistID
               FROM album
               INNER JOIN artist
               ON album.ArtistID=artist.ArtistID;");
