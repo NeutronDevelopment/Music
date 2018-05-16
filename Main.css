@@ -38,20 +38,42 @@ body {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    margin: 5px 20px;
+    margin: 5px 40px;
     font-family: verdana;
     font-size: 20px;
 }
 
 /* Change the link color to #111 (black) on hover */
 #nav-bar-centre li a:hover {
-	color: #ff964c;
+	color: #5b5b5b;
 	transition-duration: 0.5s;
 }
 
-.container {
+#musiccontainer {
+    float: left;
+    display: inline;
     width: 20%;
-    margin: auto 0;
-    background: #2d2d2d;
-    height: 100px;
+    background: #2e6dd3;
+    height: 250px;
+    margin: 20px;
+    box-shadow: 20px;
+}
+
+#rowcontainer {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-left: 6%;
+}
+
+#line {
+    width: 90%;
+    height: 1px;
+    background-color: #6b6b6b;
+    margin-left: 5%;
+}
+
+h2 {
+    font-family: arial;
+    color: #333333;
 }
