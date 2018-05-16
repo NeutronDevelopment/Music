@@ -63,9 +63,5 @@
 
     </div>
 
-   
-
-	<div id="line2"> </div>
-
 </body>
 </html>
