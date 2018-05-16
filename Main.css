@@ -52,18 +52,29 @@ body {
 #musiccontainer {
     float: left;
     display: inline;
-    width: 20%;
+    width: 10%;
     background: #2e6dd3;
     height: 250px;
     margin: 20px;
     box-shadow: 20px;
 }
 
+#musiccontainer img{
+    width: 100%;
+    height: 200px;
+}
+
+#musiccontainer p{
+    margin-left: 10%;
+    font-family: arial;
+    margin: auto 0;
+}
+
 #rowcontainer {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    margin-left: 6%;
+    margin-left: 7%;
 }
 
 #line {
