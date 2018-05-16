@@ -38,7 +38,7 @@
 
 	<br>
 
-	<h2 style="margin-left: 5%"> New Albums </h2>
+	<h2 style="margin-left: 5%"> Albums </h2>
 
 	<div id="line2"> </div>
 
@@ -63,7 +63,7 @@
 
     </div>
 
-    <h2 style="margin-left: 5%"> New Artists </h2>
+   
 
 	<div id="line2"> </div>
 
