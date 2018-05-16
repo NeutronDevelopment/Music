@@ -5,6 +5,17 @@
         $result = mysqli_query($db, $query);
         ?> 
 
+
+
+            <?php $query = ("SELECT album.AlbumID, album.Name, album.Art, artist.ArtistName, artist.ArtistID
+              FROM album
+              INNER JOIN artist
+              ON album.ArtistID=artist.ArtistID;");
+            $result = mysqli_query($db, $query);
+            ?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,8 +45,12 @@
                           {
                                echo '
                                <div id="musiccontainer">
+
                                		<img src="images/'.$row['Art'].' "> </img>
+                                    
+                                    <p>'.$row["ArtistName"].'</p>
                                     <p>'.$row["Name"].'</p>
+
                                </div>
                                ';
                           }
