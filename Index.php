@@ -1,7 +1,7 @@
 <?php include('connect.php'); ?>
 
 
-        <?php $query = ("SELECT * FROM albums");
+        <?php $query = ("SELECT * FROM album");
         $result = mysqli_query($db, $query);
         ?> 
 
@@ -65,8 +65,7 @@
                           {
                                echo '
                                <div id="musiccontainer">
-                               		<img>'.$row["albumimage"].'</img>
-                                    <p>'.$row["albumname"].'</p>
+                                    <p>'.$row["Name"].'</p>
                                </div>
                                ';
                           }
