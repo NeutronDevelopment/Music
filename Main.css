@@ -58,7 +58,6 @@ body {
 #musiccontainer {
     float: left;
     width: 250px;
-    background: #cccccc;
     opacity: 0.9;
     height: 300px;
     margin: 20px;
@@ -88,7 +87,7 @@ body {
 }
 
 #line2 {
-    width: 10%;
+    width: 250px;
     height: 1px;
     background-color: #6b6b6b;
     margin-left: 5%;
