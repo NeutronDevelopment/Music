@@ -8,7 +8,9 @@ body {
 	padding: 0;
 	border: 0;
 }
-
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
 #nav-bar-centre {
 	border:0px solid #ccc;
     border-width:0px 0;
@@ -45,7 +47,7 @@ body {
 
 /* Change the link color to #111 (black) on hover */
 #nav-bar-centre li a:hover {
-	color: #2ca066;
+	color: red;
 	transition-duration: 0.5s;
 }
 
@@ -95,13 +97,13 @@ body {
 
 h2 {
     font-family: arial;
-    color: #333333;
+    color: white;
     font-weight: 200;
+    text-align: left;
 }
 
 h3 {
     font-family: arial;
-    color: #333333;
-    font-size: 30px;
+    color: whitex;
     font-weight: 100;
 }
