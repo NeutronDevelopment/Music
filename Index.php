@@ -64,11 +64,9 @@
                               		<img style="border-radius:10px; margin-bottom:5px;" src="images/'.$row['Art'].' "> </img>
                               		
                                     <audio class="musicplayer" controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
-                                     <p style="float:left;">'.$row["ArtistName"].'</p>
-
+                                     <li style="float:left; color: #fff;">'.$row["ArtistName"].'</li>
                                      <br>
-                                     <br>
-                                     <p style="float:left; font-weight:100;">'.$row["TrackName"].'</p>
+                                     <li style="float:left; color: #fff;">'.$row["TrackName"].'</li>
                                      
                                </div>
                                ';
