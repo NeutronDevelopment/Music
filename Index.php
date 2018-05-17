@@ -7,7 +7,7 @@
 
 
 
-            <?php $query = ("SELECT album.AlbumID, album.songfile, album.Name, album.Art, artist.ArtistName, artist.ArtistID
+            <?php $query = ("SELECT album.SongID, album.TrackName, album.songfile, album.AlbumName, album.Art, artist.ArtistName, artist.ArtistID
               FROM album
               INNER JOIN artist
               ON album.ArtistID=artist.ArtistID;");
@@ -21,24 +21,24 @@
 <head>
 	<title>Music</title>
 	<link rel="stylesheet" href="Main.css">
+
 </head>
 <body>
 
 	<div id="nav-bar-centre">
 		<ul>
-			<h3> Nat and Dans Music </h3>
+			<h3> Track Rater </h3>
 			<div id="line"> </div>
 			<li> <a href="#">Music</a> </li>
 			<li> <a href="#">Artists</a> </li>
-			<li> <a href="#">Albums</a> </li>
-			<li> <a href="#">About</a> </li>
+			<li> <a href="#">About us</a> </li>
 			<div id="line"> </div>
 		</ul>
 	</div>
 
 	<br>
 
-	<h2 style="margin-left: 5%"> Albums </h2>
+	<h2 style="margin-left: 5%"> Listen and rate </h2>
 
 	<div id="line2"> </div>
 
@@ -53,18 +53,26 @@
 
                                		<img src="images/'.$row['Art'].' "> </img>
                                     <audio controls style="width:100%;"> <source src="'.$row['songfile'].'" type="audio/mpeg"> </audio>
-                                     <p style="float:left;">'.$row["ArtistName"].'</p>
+                                     <p style="float:left;">'.$row["ArtistName"].' - '.$row["AlbumName"].'</p>
+
                                      <br>
                                      <br>
-                                     <br>
-                                     <p style="float:left; font-weight:100;">'.$row["Name"].'</p>
+                                     
+                                     <p style="float:left; font-weight:100;">'.$row["TrackName"].'</p>
                                      
                                </div>
                                ';
                           }
                           ?>
 
-    </div>
 
+
+
+    </div>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
 </body>
 </html>
