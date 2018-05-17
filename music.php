@@ -37,10 +37,7 @@
     </div>
 
 </head>
-    
-<body>
 
-</head>
 <body style="background-color: #1c1c1c;">
 
 	<div id="nav-bar-centre">
@@ -56,7 +53,7 @@
 
 
   <li style="float: right; list-style: none;" > <input type="text" class="search form-control" placeholder="Search" style="width: 100%; float: right;"> </li>
-<table class="table table-hover table-bordered results" style=" background-color: #ffffff;">
+  <table class="table table-hover table-bordered results" style=" background-color: #ffffff;">
   <span class="counter pull-right"></span>
                             <thead>
                                <tr>
@@ -89,10 +86,10 @@
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star"></span>
 <span class="fa fa-star"></span>
+<script src="assets/js/Table-with-search.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 
-    <script src="assets/js/Table-with-search.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
