@@ -39,8 +39,8 @@
 		<ul>
 			
 			<div id="line"> </div>
-			<li> <a href="music.php">Music</a> </li>
-			<li> <a href="Index.php">Artists</a> </li>
+      <li> <a href="music.php">Music</a> </li>
+      <li> <a href="Index.php">Artists</a> </li>
 			<li> <a href="#">About us</a> </li>
 			<div id="line"> </div>
 		</ul>
@@ -48,30 +48,29 @@
 
 	<br>
 
-	<h2 style="margin-left: 5%"> Listen and rate </h2>
 
-	<div id="line2"> </div>
-
-	<div id="container"> 
-
-<?php
+<table class="table table-hover table-bordered results" style=" background-color: #ffffff;">
+                            <thead>
+                               <tr>
+                                    <td>Song Name</td>
+                                    <td>Artist</td>
+                                    <td>Player</td>
+                               </tr>
+                          </thead>
+                          <?php
 
                           while ($row = mysqli_fetch_assoc($result))
                           {
                                echo '
-                               <div id="musiccontainer">
-
-                              		<img style="border-radius:10px; margin-bottom:5px;" src="images/'.$row['Art'].' "> </img>
-                              		
-                                    <audio class="musicplayer" controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
-                                     <li style="float:left; color: #fff; list-style:none;">'.$row["ArtistName"].'</li>
-                                     <br>
-                                     <li style="float:left; color: #fff; list-style:none;">'.$row["TrackName"].'</li>
-                                     
-                               </div>
+                               <tr>
+                                    <td>'.$row["TrackName"].'</td>
+                                    <td>'.$row["ArtistName"].'</td>
+                                    <td><audio class="musicplayer" controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio></td>
+                               </tr>
                                ';
                           }
                           ?>
+                </table>
 
 
 

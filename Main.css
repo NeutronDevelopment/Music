@@ -115,11 +115,6 @@ p {
     color: #ffffff;
 }
 
-li {
-    list-style: none;
-
-    float: left;
-}
 audio.musicplayer {
   width: 100%;
   height: 35px;
