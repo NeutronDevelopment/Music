@@ -23,12 +23,16 @@
 	<link rel="stylesheet" href="Main.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    
+  <div class="w3-container w3-black w3-center w3-allerta">
+  <p class="w3-xxxlarge">Track Rater</p>
+    </div>
 
 </head>
+    
 <body>
 
-<div class="w3-container w3-black w3-center w3-allerta">
-  <p class="w3-xxxlarge">Track Rater</p>
+
 	<div id="nav-bar-centre">
 		<ul>
 			
