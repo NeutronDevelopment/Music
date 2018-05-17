@@ -22,7 +22,15 @@
 	<title>Music</title>
 	<link rel="stylesheet" href="Main.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search.css">
     
   <div class="w3-container w3-black w3-center w3-allerta" style="height: 125px; margin:0;">
   <p class="w3-xxxlarge">Track Rater</p>
@@ -47,8 +55,8 @@
 	</div>
 
 
-
-<table style=" background-color: #ffffff;">
+  <li style="float: right; list-style: none;" > <input type="text" class="search form-control" placeholder="Search" style="width: 100%; float: right;"> </li>
+<table class="table table-hover table-bordered results" style=" background-color: #ffffff;">
                             <thead>
                                <tr>
                                     <td> <p> Song Name </p> </td>
@@ -82,4 +90,8 @@
 <span class="fa fa-star"></span>
 </body>
 </html>
+
+    <script src="assets/js/Table-with-search.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 

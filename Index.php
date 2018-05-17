@@ -22,7 +22,15 @@
 	<title>Music</title>
 	<link rel="stylesheet" href="Main.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search.css">
     
   <div class="w3-container w3-black w3-center w3-allerta" style="height: 125px; margin:0;">
   <p class="w3-xxxlarge">Track Rater</p>
@@ -48,7 +56,7 @@
 
 	<br>
 
-	<h2 style="margin-left: 5%"> Listen and rate </h2>
+	<h2 style="margin-left: 5%; color: #ffffff;"> Listen and rate </h2>
 
 	<div id="line2"> </div>
 
