@@ -7,7 +7,7 @@
 
 
 
-            <?php $query = ("SELECT album.SongID, album.TrackName, album.songfile, album.AlbumName, album.Art, artist.ArtistName, artist.ArtistID
+            <?php $query = ("SELECT album.SongID, album.TrackName, album.AlbumName, album.Art, artist.ArtistName, artist.ArtistID
               FROM album
               INNER JOIN artist
               ON album.ArtistID=artist.ArtistID;");
@@ -53,7 +53,7 @@
 
                                		<img src="images/'.$row['Art'].' "> </img>
 
-                                    <audio controls style="width:100%;"> <source src="'.$row['songID'].'.mp3" type="audio/mpeg"> </audio>
+                                    <audio controls style="width:100%;"> <source src="'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].'</p>
 
                                      <br>
