@@ -53,7 +53,7 @@
 
                                		<img src="images/'.$row['Art'].' "> </img>
 
-                                    <audio controls style="width:100%;"> <source src="'.$row['songfile'].'" type="audio/mpeg"> </audio>
+                                    <audio controls style="width:100%;"> <source src="'.$row['songID'].'.mp3" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].'</p>
 
                                      <br>
