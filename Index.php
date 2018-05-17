@@ -58,7 +58,7 @@
                               		<img style="border-radius:10px;" src="images/'.$row['Art'].' "> </img>
                               		
 
-                                    <audio controls controlsList="nodownload" style="width:100%; border-radius:50px;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
+                                    <audio controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].'</p>
 
                                      <br>
