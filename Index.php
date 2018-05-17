@@ -52,9 +52,15 @@
                                <div id="musiccontainer">
 
                                		<img src="images/'.$row['Art'].' "> </img>
+<<<<<<< HEAD
                                     <audio controls style="width:100%;"> <source src="'.$row['songfile'].'" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].' - '.$row["AlbumName"].'</p>
 
+=======
+                                    <audio controls style="width:100%;"> <source src="music/'.$row['songfile'].'" type="audio/mpeg"> </audio>
+                                     <p style="float:left;">'.$row["ArtistName"].'</p>
+                                     <br>
+>>>>>>> 883594d3d76a5bca33dfe01bdc2b7b0993c8e53d
                                      <br>
                                      <br>
                                      
