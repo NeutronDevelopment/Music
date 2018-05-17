@@ -57,6 +57,7 @@
 
   <li style="float: right; list-style: none;" > <input type="text" class="search form-control" placeholder="Search" style="width: 100%; float: right;"> </li>
 <table class="table table-hover table-bordered results" style=" background-color: #ffffff;">
+  <span class="counter pull-right"></span>
                             <thead>
                                <tr>
                                     <td> <p> Song Name </p> </td>
