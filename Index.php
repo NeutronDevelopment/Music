@@ -53,7 +53,7 @@
                                echo '
                                <div id="musiccontainer">
 
-                              		<img style="border-radius:10px; margin-bottom:5	px;" src="images/'.$row['Art'].' "> </img>
+                              		<img style="border-radius:10px; margin-bottom:5px;" src="images/'.$row['Art'].' "> </img>
                               		
                                     <audio class="musicplayer" controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].'</p>
