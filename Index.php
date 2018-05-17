@@ -21,6 +21,7 @@
 <head>
 	<title>Music</title>
 	<link rel="stylesheet" href="Main.css">
+<<<<<<< HEAD
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
     
@@ -31,6 +32,11 @@
 </head>
     
 <body>
+=======
+
+</head>
+<body style="background-color: #1c1c1c;">
+>>>>>>> 834c1717d9cb3e07ff4706183ac291ad308643b3
 
 
 	<div id="nav-bar-centre">
@@ -59,10 +65,9 @@
                                echo '
                                <div id="musiccontainer">
 
-                              		<img style="border-radius:10px;" src="images/'.$row['Art'].' "> </img>
+                              		<img style="border-radius:10px; margin-bottom:5px;" src="images/'.$row['Art'].' "> </img>
                               		
-
-                                    <audio controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
+                                    <audio class="musicplayer" controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].'</p>
 
                                      <br>
@@ -86,3 +91,4 @@
 <span class="fa fa-star"></span>
 </body>
 </html>
+
