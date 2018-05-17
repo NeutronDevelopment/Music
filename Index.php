@@ -21,11 +21,9 @@
 <head>
 	<title>Music</title>
 	<link rel="stylesheet" href="Main.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
 
 </head>
-<body>
+<body style="background-color: #1c1c1c;">
 
 <div class="w3-container w3-black w3-center w3-allerta">
   <p class="w3-xxxlarge">Track Rater</p>
@@ -55,7 +53,7 @@
                                echo '
                                <div id="musiccontainer">
 
-                              		<img style="border-radius:10px; margin-bottom:5px;" src="images/'.$row['Art'].' "> </img>
+                              		<img style="border-radius:10px; margin-bottom:5	px;" src="images/'.$row['Art'].' "> </img>
                               		
                                     <audio class="musicplayer" controls controlsList="nodownload" style="width:100%;"> <source src="music/'.$row['SongID'].'.mp3" type="audio/mpeg"> </audio>
                                      <p style="float:left;">'.$row["ArtistName"].'</p>
