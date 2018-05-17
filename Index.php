@@ -54,12 +54,11 @@
                                		<img src="images/'.$row['Art'].' "> </img>
 
                                     <audio controls style="width:100%;"> <source src="'.$row['songfile'].'" type="audio/mpeg"> </audio>
-                                     <p style="float:left;">'.$row["ArtistName"].' - '.$row["AlbumName"].'</p>
-
+                                     <p style="float:left;">'.$row["ArtistName"].'</p>
 
                                      <br>
                                      <br>
-                                     
+                                     <br>
                                      <p style="float:left; font-weight:100;">'.$row["TrackName"].'</p>
                                      
                                </div>
