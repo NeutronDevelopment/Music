@@ -39,8 +39,8 @@
 		<ul>
 			
 			<div id="line"> </div>
-      <li> <a href="music.php">Music</a> </li>
-      <li> <a href="Index.php">Artists</a> </li>
+      <li> <a href="music.php">Tracks</a> </li>
+      <li> <a href="Index.php">Ratings</a> </li>
 			<li> <a href="#">About us</a> </li>
 			<div id="line"> </div>
 		</ul>
