@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
     
-  <div class="w3-container w3-black w3-center w3-allerta">
+  <div class="w3-container w3-black w3-center w3-allerta" style="height: 125px; margin:0;">
   <p class="w3-xxxlarge">Track Rater</p>
     </div>
 
