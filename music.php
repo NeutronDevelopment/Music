@@ -46,15 +46,14 @@
 		</ul>
 	</div>
 
-	<br>
 
 
-<table class="table table-hover table-bordered results" style=" background-color: #ffffff;">
+<table style=" background-color: #ffffff;">
                             <thead>
                                <tr>
-                                    <td>Song Name</td>
-                                    <td>Artist</td>
-                                    <td>Player</td>
+                                    <td> <p> Song Name </p> </td>
+                                    <td> <p> Artist </p> </td>
+                                    <td> <p> Player </p> </td>
                                </tr>
                           </thead>
                           <?php
