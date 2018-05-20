@@ -1,16 +1,16 @@
 <?php include('connect.php'); ?>
 
 
-        <?php $query = ("SELECT * FROM album");
+        <?php $query = ("SELECT * FROM songs");
         $result = mysqli_query($db, $query);
         ?> 
 
 
 
-            <?php $query = ("SELECT album.SongID, album.TrackName, album.AlbumName, album.Art, artist.ArtistName, artist.ArtistID
-              FROM album
+            <?php $query = ("SELECT songs.SongID, songs.TrackName, songs.AlbumName, songs.Art, artist.ArtistName, artist.ArtistID
+              FROM songs
               INNER JOIN artist
-              ON album.ArtistID=artist.ArtistID;");
+              ON songs.ArtistID=artist.ArtistID;");
             $result = mysqli_query($db, $query);
             ?>
 
