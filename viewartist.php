@@ -2,7 +2,7 @@
 <html>
 <?php include('connect.php'); ?>
 
-        <?php $query = ("SELECT * FROM songs WHERE ArtistID="artistview);
+        <?php $query = ("SELECT * FROM songs WHERE ArtistID='2'");
         $result = mysqli_query($db, $query);
         ?> 
 
